@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html 5</title>
+</head>
+<body>
+    <h1>imagen dinamica</h1>
+    <p>tente abrir essa pagina em dispositivos diferentes, ou tente almentar e diminuir o tamanho da tela.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio em html 5</p>
+    <audio preload="metadata"controls autoplay>
+        <source src="audio/vitalwhales.mp3" type="audio/npeg">
+        <source src="audio/vitalwhales.ogg" type="audio/ogg">
+        <p>infelizmente o navegador nao tem compatibilidade para esses formatos de audio, <a href="audio/vitalwhales.mp3">clique aqui</a> para fazer o download</p>
+    </audio>
+    <p>voce ja ouviu o podcast do guanabara?</p>
+    <audio src="audio/guanacast-33.mp3"controls></audio>
+    <p>é bem parecido com o nerdcast, mas como era uma epoca que não era moda ter um podcast ainda assim é bem legal.</p>
+</body>
+</html>
