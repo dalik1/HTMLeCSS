@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
-div#podicionamento{
-    background-image: url(dalikfofo.jpg);
-    height: 100px;
-    
+body{
+    background-image: url(dalekfofo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 100vh;
 }
