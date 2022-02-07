@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(255, 255, 255);
+    font: 13pt Arial;
+    color: black;
+}
+
+div { 
+    width: 90%;
+    height: 400px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+div#area001 {
+    background-image: url('imagens/pattern001.png');
+    background-repeat: repeat;
+}
+
+div#area002 {
+    background-image: url('imagens/pattern002.png');
+    background-repeat: repeat-x;
+}
+
+div#area003 {
+    background-image: url('imagens/pattern003.png');
+    background-repeat: repeat-y;
+}
+
+div#area004 {
+    background-image: url('imagens/pattern004.png');
+    background-repeat: no-repeat;
+}
