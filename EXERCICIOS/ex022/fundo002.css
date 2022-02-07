@@ -1,34 +1,18 @@
 @charset "UTF-8";
 
-body {
-    background-color: rgb(255, 255, 255);
-    font: 13pt Arial;
-    color: black;
+div.fundo{
+    height: 100px;
+    background-image: url(wallpaper003.jpg);
+    border: 1px solid rgb(153, 120, 11);
+    margin: 10px;
+    border-radius: 10px;
 }
-
-div { 
-    width: 90%;
-    height: 400px;
-    background-color: lightgray;
-    border: 1px solid black;
+div#q1{
+    background-position: left top;
 }
-
-div#area001 {
-    background-image: url('imagens/pattern001.png');
-    background-repeat: repeat;
+div#q2{
+    background-position: left center;
 }
-
-div#area002 {
-    background-image: url('imagens/pattern002.png');
-    background-repeat: repeat-x;
-}
-
-div#area003 {
-    background-image: url('imagens/pattern003.png');
-    background-repeat: repeat-y;
-}
-
-div#area004 {
-    background-image: url('imagens/pattern004.png');
-    background-repeat: no-repeat;
+div#q3{
+    background-position: left bottom;
 }
