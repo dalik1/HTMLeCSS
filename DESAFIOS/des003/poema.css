@@ -22,18 +22,23 @@ footer{
     background-color: black;
     height: 100px;
 }
-div#flor{
+section{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 50px;
+}
+section#flor{
     background: #0b460b url('imagens/background001.jpg') no-repeat fixed;
     background-size: cover;
-    padding: 2vh;
+    background-position: right center;
 }
-div#cartas{
+section#cartas{
     background: #5e5e5e url('imagens/background002.jpg') no-repeat fixed;
     background-size: cover;
-    padding: 2vh;
+    background-position: right center;
 }
 div.fpreto{
-    width: 70vh;
+    width: 50vw;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 15px;
 }
@@ -60,9 +65,8 @@ h2{
     text-align: center; 
 }
 p{
-    margin-left: 100px;
     font-family: 'Sriracha', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 500%;
+    font-size: 3.5vw;
 }
 p#estro2, #estro5{
     color: aliceblue;
