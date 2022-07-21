@@ -28,13 +28,24 @@ iframe{
     position: relative;
     left: 22px;
     top: 80px;
+    background-image: url(pacote-d013/imagens/tela-home.jpg);
+    background-size: cover;
+}
+
+section ol{
+    text-align: right;
 }
 
 img{
     width: 50px;
     height: 50px;
     margin: 7px;
-    
+}
+
+img:hover{
+    width: 60px;
+    height: 60px;
+    margin: 2px;
 }
 
 section#telefone{
@@ -47,3 +58,13 @@ section#telefone{
     background-image: url(pacote-d013/imagens/frame-iphone.png);
     background-repeat: no-repeat;
 }
+
+div#home{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    top: 17%;
+    transform: translate(-50%, -50%);
+}
+    
