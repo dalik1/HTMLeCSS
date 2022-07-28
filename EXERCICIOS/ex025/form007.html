@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <!--nao se esqueca que se for muito pesado o site use o post ao invez do get porque o get é limitado a aprocimadamente 2mb -->
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <option value="" selected>----Escolha----</option>
+                <optgroup label="Região Suldeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas gerais</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PI">Piaui</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profição</label>
+            <input type="text" name="prof" id="iprof" list="lsdprof">
+            <datalist id="lsdprof">
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contador</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label>
+        </p>
+        <p>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Escreva aqui a sua mensagem"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
