@@ -20,18 +20,19 @@ main{
 }
 section#login{
     background-color: #aaaaaa;
-    width: 250px;
-    height: 500px;
+    width: 80vw;
+    height: 90vh;
     border-radius: 20px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    transition: 0.5s;
 }
 section div#imagem{
     display: block;
-    background: #5f2c82 url(../imagens/filmes.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/paisagem.jpg) no-repeat;
     background-size: cover;
     height: 200px;
     box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.45) ;
@@ -40,14 +41,34 @@ section div#logar{
     display: block;
     padding: 10px;
 }
-h1, p{
-    text-align: center;
+input{
+    width: 80%;
 }
 input#iemail, #isenha{
-    width: 40vw;
+    height: 25px;
     background-color: #91b0b1;
     border: 0;
     box-shadow: 1px 1px 5px;
+}
+#ienviar{
+    position: relative;
+    left: 28px;
+}
+label{
+    position: relative;
+    top: 5px;
+}
+label:hover{
+    color: #5f2c82;
+}
+div#logar >p{
+    font-size: 0.8em;
+}
+h1, p{
+    text-align: center;
+}
+a{
+    font-size: 0.75em;
 }
 #esqueci p{
     text-decoration: none;
