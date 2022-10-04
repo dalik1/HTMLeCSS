@@ -3,28 +3,42 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
 }
 body, html{
-    background-color: #91b0b1;
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
 }
 main{
-    width: 65vw;
-    height: 65vh;
-    max-width: 700px;
+    width: 100vw;
+    height: 100vh;
     box-shadow: 1px 1px 10px black;
     border-radius: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: blueviolet;
-    background-color: #aaaaaa;
-    transition: 0.5s;
+    position: relative;
 }
-img{
-    width: 100%;
-    box-shadow: 0px 1px 5px black;
-    border-radius: 10px 10px 0px 0px;
+section#login{
+    background-color: #aaaaaa;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+section div#imagem{
+    display: block;
+    background: #5f2c82 url(../imagens/filmes.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+    box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.45) ;
+}
+section div#logar{
+    display: block;
+    padding: 10px;
 }
 h1, p{
     text-align: center;
