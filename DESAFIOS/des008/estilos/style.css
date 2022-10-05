@@ -45,9 +45,9 @@ input{
     width: 80%;
 }
 input#iemail, #isenha{
-    height: 25px;
-    background-color: #91b0b1;
-    border: 0;
+    height: 45px;
+    border: 7;
+    border-radius: 10px;
     box-shadow: 1px 1px 5px;
 }
 #ienviar{
