@@ -1,5 +1,7 @@
-clearTimeout
-function myFunction(a, b){
-return  a=='b';
-}
-console.log(myFunction('a'))
+function fun(a) {  
+    if (a==){
+
+    }
+    return a;
+} 
+console.log(fun(1))
