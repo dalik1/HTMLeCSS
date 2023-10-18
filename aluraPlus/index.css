@@ -9,7 +9,8 @@
     --cinzaSec: #c0c0c0;
     --botAzul: #167BF7;
     --corFundo: #00030C;
-    --fonte-principal: 'Inter'
+    --fonte-principal: 'Inter';
+    --efeitoBotAzul: #1263c7;
 }
 body{
     background-color: var(--corFundo);
@@ -21,6 +22,7 @@ body{
 }
 #principal{
     background-image: url(img/Background.png);
+    margin-top: 7em;
 }
 .container{
     height: 100vh;
@@ -38,9 +40,15 @@ body{
     margin-bottom: 1em;
     padding: 1em;
 }
+.conteiner__botao:hover{
+    background-color: var(--efeitoBotAzul);
+}
 .conteiner__secundario{
     background-color: transparent;
     border: solid var(--brancoPrin) 2px;
+}
+.conteiner__secundario:hover{
+    background-color: #00030c88;
 }
 .conteiner__aviso{
     font-size: 12px;
@@ -81,11 +89,36 @@ body{
 .container__descricao{
     padding: 2em;
 }
-.dispositivos{
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
 }
-.disponivel{
-    text-align: center;
+.dispositivos__titulo{
+    font-size: 48px;
+    color: var(--brancoPrin);
+}
+.dispositivos__itens{
+    font-size: 32px;
+    color: var(--brancoPrin);
+}
+.rodape__lista{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 2em;
+}
+.lista__link a{
+    color: var(--brancoPrin);
+    text-decoration: none
+}
+.lista__link a:hover{
+    color: var(--botAzul);
+}
+.lista__link a:active{
+    color: red;
+}
+.rodape__texto{
+    margin: 1em;
 }
